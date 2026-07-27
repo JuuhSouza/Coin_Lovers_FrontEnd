@@ -79,7 +79,8 @@ nav ul a {
   padding: 0.6rem 1.2rem;
   border-radius: 12px;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
   transition: all 0.3s ease;
   position: relative;
