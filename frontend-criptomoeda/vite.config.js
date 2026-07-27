@@ -2,6 +2,5 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  plugins: [vue()],
-  base: '/Coin_Lovers_FrontEnd/'
+  plugins: [vue()]
 })

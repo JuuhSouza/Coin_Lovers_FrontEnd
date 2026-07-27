@@ -1,0 +1,26 @@
+:root {
+    /* GERAL */
+    --color-h1-geral: #FA9B00;
+    --background-color-geral: #262933;
+
+    /* HEADER */
+    --color-link-header: #ffffff;
+    --color-icon-header: #FA9B00;
+    --color-link-header-hover: #FA9B00;
+    --color-line-header: #838383;
+
+    /* RANKING */
+    --color-ranking: #ffffff;
+    --color-ranking-hover: #FA9B00;
+    --color-position: #FA9B00;
+    --color-sigla: #9ca3af;
+    --color-usuarios: #FA9B00;
+    --background-color-ranking: #FA9B00;
+    --button-color-atualizar: #020202;
+}
+
+* {
+    background-color: var(--background-color-geral);
+    font-family: "Chau Philomene One", sans-serif;
+
+}

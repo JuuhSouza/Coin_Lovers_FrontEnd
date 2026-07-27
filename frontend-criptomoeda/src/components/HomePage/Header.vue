@@ -4,28 +4,28 @@
       <img src="/img/logo.png" alt="logo" class="logo" />
       <ul>
         <li>
-          <a href="#">
+          <router-link to="/">
             <i class="fa-solid fa-house nav-icon"></i>
             <span class="nav-text">Home</span>
-          </a>
+          </router-link>
         </li>
         <li>
-          <a href="#">
+          <router-link to="/comprar">
             <i class="fa-solid fa-coins nav-icon"></i>
-            <span class="nav-text">Compras</span>
-          </a>
+            <span class="nav-text">Comprar</span>
+          </router-link>
         </li>
         <li>
-          <a href="#">
+          <router-link to="/dashboard">
             <i class="fa-solid fa-chart-bar nav-icon"></i>
             <span class="nav-text">Dashboard</span>
-          </a>
+          </router-link>
         </li>
         <li>
-          <a href="#">
+          <router-link to="/carteira">
             <i class="fa-solid fa-wallet nav-icon"></i>
             <span class="nav-text">Carteira</span>
-          </a>
+          </router-link>
         </li>
       </ul>
     </nav>
