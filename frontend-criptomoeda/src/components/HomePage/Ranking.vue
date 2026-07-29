@@ -1,5 +1,5 @@
 <template>
-  <section class="ranking-section">
+  <section class="ranking-section" data-aos="fade-left">
     <div class="container">
       <div class="box-button">
         <h2 class="title">Ranking de Criptomoedas</h2>
@@ -11,7 +11,7 @@
       <div class="ranking-list">
         <div
           class="ranking-box"
-          v-for="(coin, index) in ranking"
+          v-for="(coin, index) in top10"
           :key="coin.id"
         >
           <span class="posicao"># {{ index + 1 }}</span>
@@ -25,10 +25,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted } from "vue";
 import { getRanking } from "../../services/rankingService";
 
 const ranking = ref([]);
+
+// Pega só os 10 primeiros do array já ordenado
+const top10 = computed(() => ranking.value.slice(0, 10));
 
 let interval;
 
@@ -56,6 +59,7 @@ onUnmounted(() => {
 <style scoped>
 .ranking-section {
   padding: 2rem;
+  margin-top: -5rem;
   display: flex;
   justify-content: flex-end;
 }

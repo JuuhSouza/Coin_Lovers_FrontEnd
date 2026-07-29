@@ -1,6 +1,9 @@
 <template>
     <div class="container">
+        <div class="ranking" >
             <Ranking/>
+        </div>
+           
     </div>
 </template>
 

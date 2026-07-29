@@ -9,6 +9,14 @@
     --color-link-header-hover: #FA9B00;
     --color-line-header: #838383;
 
+    /* FOOTER */
+    --color-link-footer: #ffffff;
+    --color-text-footer: #fffcfc;
+    --color-title-footer: #838383;
+    --color-year-footer: #e5e5e5;
+    --color-link-footer-hover: #FA9B00;
+    --color-line-footer: #838383;
+
     /* RANKING */
     --color-ranking: #ffffff;
     --color-ranking-hover: #FA9B00;
@@ -19,8 +27,12 @@
     --button-color-atualizar: #020202;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 * {
     background-color: var(--background-color-geral);
     font-family: "Chau Philomene One", sans-serif;
-
 }

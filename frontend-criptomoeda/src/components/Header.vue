@@ -38,8 +38,7 @@
 
 <style scoped>
 header {
-border-bottom: 1px solid var(--color-line-header);
-  position: fixed;
+  border-bottom: 1px solid var(--color-line-header);
   top: 0;
   left: 0;
   width: 100%;
@@ -51,14 +50,14 @@ nav {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
-    height: 64px;
+    height: 54px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-  height: 55px;
+  height: 45px;
   width: auto;
   object-fit: contain;
 }
@@ -79,7 +78,7 @@ nav ul a {
   padding: 0.6rem 1.2rem;
   border-radius: 12px;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: all 0.3s ease;

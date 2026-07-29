@@ -4,10 +4,16 @@
   <main class="content">
     <router-view />
   </main>
+
+  <footer>
+        <Footer />
+  </footer>
+
 </template>
 
 <script setup>
-import Header from './components/HomePage/Header.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <style>
