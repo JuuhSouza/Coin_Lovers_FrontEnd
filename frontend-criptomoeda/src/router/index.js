@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
 import HomeView from '../views/HomeView.vue'
 import DashboardView from '../views/DashboardView.vue'
 import CarteiraView from '../views/CarteiraView.vue'
@@ -25,7 +24,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/Coin_Lovers_FrontEnd/'),
     routes
 })
 
