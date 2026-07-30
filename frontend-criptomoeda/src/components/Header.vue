@@ -16,6 +16,12 @@
           </router-link>
         </li>
         <li>
+          <router-link to="/conversor">
+            <i class="fa-solid fa-arrow-right-arrow-left nav-icon"></i>
+            <span class="nav-text">Conversor</span>
+          </router-link>
+        </li>
+        <li>
           <router-link to="/dashboard">
             <i class="fa-solid fa-chart-bar nav-icon"></i>
             <span class="nav-text">Dashboard</span>
@@ -23,8 +29,8 @@
         </li>
         <li>
           <router-link to="/carteira">
-            <i class="fa-solid fa-wallet nav-icon"></i>
-            <span class="nav-text">Carteira</span>
+            <i class="fa-solid fa-arrow-right-to-bracket nav-icon"></i>
+            <span class="nav-text">Login</span>
           </router-link>
         </li>
       </ul>

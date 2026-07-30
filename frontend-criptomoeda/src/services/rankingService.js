@@ -1,3 +1,11 @@
+/* import axios from "axios";
+
+export const getRanking = () => {
+    return axios.get(
+        "http://localhost:8080"
+    );
+}; */
+
 export const getRanking = async () => {
     return {
         data: [

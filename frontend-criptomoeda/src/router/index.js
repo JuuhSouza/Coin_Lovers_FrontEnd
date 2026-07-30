@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import DashboardView from '../views/DashboardView.vue'
 import CarteiraView from '../views/CarteiraView.vue'
 import ComprarView from '../views/ComprarView.vue'
+import ConversorView from '../views/ConversorView.vue'
 
 const routes = [
     {
@@ -20,6 +21,10 @@ const routes = [
     {
         path: '/comprar',
         component: ComprarView
+    },
+    {
+        path: '/conversor',
+        component: ConversorView
     }
 ]
 

@@ -17,6 +17,18 @@
     --color-link-footer-hover: #FA9B00;
     --color-line-footer: #838383;
 
+    /* HOME */
+    --color-span-home:#FA9B00;
+    --color-title-home:#fdfdfd;
+    --button-color-cadastro:#020202;
+    --button-background-cadastro:#FA9B00;
+    --button-color-login:#fcfcfc;
+    --button-border-login:#FA9B00;
+    --button-color-login-hover:#ffffff0d;
+    --button-border-login-hover:#ffffff66;
+    --color-bagde:#FA9B00;
+    --background-bagde:rgba(255, 159, 10, 0.12);
+
     /* RANKING */
     --color-ranking: #ffffff;
     --color-ranking-hover: #FA9B00;

@@ -17,7 +17,7 @@
           <span class="posicao"># {{ index + 1 }}</span>
           <span class="nome">{{ coin.nome }}</span>
           <span class="sigla">({{ coin.sigla }})</span>
-          <span class="usuarios">{{ coin.usuarios }} usuários</span>
+          <span class="usuarios">{{ coin.variacao24h }}%</span>
         </div>
       </div>
     </div>
@@ -27,6 +27,8 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from "vue";
 import { getRanking } from "../../services/rankingService";
+
+
 
 const ranking = ref([]);
 
@@ -54,6 +56,17 @@ onMounted(() => {
 onUnmounted(() => {
   clearInterval(interval);
 });
+
+/* const carregarRanking = async () => {
+  try {
+    const response = await getRanking();
+
+    ranking.value = response.data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+ */
 </script>
 
 <style scoped>
@@ -66,7 +79,7 @@ onUnmounted(() => {
 
 .container {
   width: 100%;
-  max-width: 500px;
+  max-width: 1900px;
   background-color: #1e1e2f;
   border-radius: 12px;
   padding: 1.5rem 2rem;
@@ -111,7 +124,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
   color: var(--color-ranking);
 }
