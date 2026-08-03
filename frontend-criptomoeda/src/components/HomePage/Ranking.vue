@@ -77,11 +77,13 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: transparent;
   margin-bottom: 1.5rem;
 }
 
 .title {
   color: var(--color-ranking);
+  background: transparent;
   font-size: 1.5rem;
   margin: 0;
 }
@@ -94,7 +96,7 @@ onUnmounted(() => {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: 600;
+/*   font-weight: 600; */
   transition:all .3s ease;
 }
 
@@ -106,6 +108,7 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  border-radius: 22px;
 }
 
 .ranking-box {
