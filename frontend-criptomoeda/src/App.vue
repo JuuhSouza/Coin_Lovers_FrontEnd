@@ -1,6 +1,5 @@
 <template>
   <Header />
-
   <main class="content">
     <router-view />
   </main>

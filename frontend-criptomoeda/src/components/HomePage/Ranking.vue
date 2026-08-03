@@ -28,8 +28,6 @@
 import { ref, computed, onMounted, onUnmounted } from "vue";
 import { getRanking } from "../../services/rankingService";
 
-
-
 const ranking = ref([]);
 
 // Pega só os 10 primeiros do array já ordenado
@@ -57,16 +55,6 @@ onUnmounted(() => {
   clearInterval(interval);
 });
 
-/* const carregarRanking = async () => {
-  try {
-    const response = await getRanking();
-
-    ranking.value = response.data;
-  } catch (error) {
-    console.error(error);
-  }
-};
- */
 </script>
 
 <style scoped>

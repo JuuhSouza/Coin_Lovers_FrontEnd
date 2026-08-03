@@ -1,6 +1,6 @@
 <template>
         <div class="Conversor" >
-            <Conversor/>
+            <!-- <Conversor/> -->
     </div>
 </template>
 

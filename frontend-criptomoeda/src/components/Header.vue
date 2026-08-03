@@ -16,10 +16,10 @@
           </router-link>
         </li>
         <li>
-          <router-link to="/conversor">
+          <a href="#conversor">
             <i class="fa-solid fa-arrow-right-arrow-left nav-icon"></i>
             <span class="nav-text">Conversor</span>
-          </router-link>
+          </a>
         </li>
         <li>
           <router-link to="/dashboard">
@@ -28,7 +28,7 @@
           </router-link>
         </li>
         <li>
-          <router-link to="/carteira">
+          <router-link to="/login">
             <i class="fa-solid fa-arrow-right-to-bracket nav-icon"></i>
             <span class="nav-text">Login</span>
           </router-link>
@@ -39,7 +39,6 @@
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>

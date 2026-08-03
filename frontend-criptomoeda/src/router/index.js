@@ -3,7 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import DashboardView from '../views/DashboardView.vue'
 import CarteiraView from '../views/CarteiraView.vue'
 import ComprarView from '../views/ComprarView.vue'
-import ConversorView from '../views/ConversorView.vue'
+import LoginView from '../views/LoginView.vue'
+import CadastroView from '../views/CadastroView.vue'
 
 const routes = [
     {
@@ -23,8 +24,12 @@ const routes = [
         component: ComprarView
     },
     {
-        path: '/conversor',
-        component: ConversorView
+        path: '/login',
+        component: LoginView
+    },
+    {
+        path: '/cadastro',
+        component: CadastroView
     }
 ]
 

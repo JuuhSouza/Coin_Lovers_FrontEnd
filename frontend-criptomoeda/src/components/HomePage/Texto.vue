@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <span class="badge">🚀 Mais de 10.000 usuários ativos</span>
+    <span class="badge"> Mais de 10.000 usuários ativos</span>
 
     <h1 class="titulo">
       <span class="destaque">Seja bem-vindo</span>, se cadastre e tenha uma
@@ -13,12 +13,16 @@
     </p>
 
     <div class="acoes">
+      <router-link to="/cadastro">
       <button class="button-cadastro">
         Criar minha carteira grátis
       </button>
+      </router-link>
+      <router-link to="/login">
       <button class="button-secundario">
-        Já tenho conta
+          Ja tenho conta
       </button>
+      </router-link>
     </div>
   </div>
 </template>
