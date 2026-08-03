@@ -68,7 +68,7 @@ onUnmounted(() => {
 .container {
   width: 100%;
   max-width: 1900px;
-  background-color: #1e1e2f;
+  background-color: var(--background-color-ranking);
   border-radius: 12px;
   padding: 1.5rem 2rem;
 }
@@ -89,14 +89,13 @@ onUnmounted(() => {
 }
 
 .atualizar {
-  background-color: var(--background-color-ranking);
+  background-color: var(--button-background-color-ranking);
   color: var(--button-color-atualizar);
   font-size: 1rem;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   cursor: pointer;
-/*   font-weight: 600; */
   transition:all .3s ease;
 }
 

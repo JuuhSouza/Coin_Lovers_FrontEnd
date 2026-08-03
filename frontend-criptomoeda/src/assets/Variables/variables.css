@@ -35,8 +35,17 @@
     --color-position: #FA9B00;
     --color-sigla: #9ca3af;
     --color-usuarios: #FA9B00;
-    --background-color-ranking: #FA9B00;
+    --button-background-color-ranking: #FA9B00;
+    --background-color-ranking: #1e1e2f;
     --button-color-atualizar: #020202;
+    
+    /* CARD */
+    --color-card-hover: #FA9B00;
+    --color-card-p: #dbdada;
+    --border-card: #9ca3af;
+    --color-card-title: #ffffff;
+    --background-color-card:#1e1e2f;
+    --color-icon-card:#FA9B00;
 }
 
 html,

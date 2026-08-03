@@ -47,7 +47,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 1;
   padding: 0.5rem 0;
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <AnimacaoFundo />
+      <AnimacaoFundo />
     <div class="texto-section">
       <Texto />
     </div>
@@ -8,20 +8,21 @@
       <Ranking />
     </div>
   </div>
+
+  <div class="Card-section">
+      <CardSobre />
+    </div>
 </template>
 
 <script setup>
 import Ranking from '../components/HomePage/Ranking.vue'
 import Texto from '../components/HomePage/Texto.vue'
-/* import Conversor from '../components/Conversor/Conversor.vue' */
+import CardSobre from '../components/HomePage/CardSobre.vue'
 import AnimacaoFundo from '../components/AnimacaoFundo.vue'
 </script>
 
 <style scoped>
 .container {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
   display: flex;
   align-items: center;
   min-height: calc(100vh - 80px);
@@ -29,15 +30,15 @@ import AnimacaoFundo from '../components/AnimacaoFundo.vue'
   margin: 0 auto;
   padding: 0 4rem;
   gap: 4rem;
-  background: transparent;
+  background: transparent; /* deixa a animação aparecer atrás */
 }
 
 .texto-section {
   position: relative;
   z-index: 1;
   flex: 1;
-  background: transparent;
   min-width: 0;
+  background: transparent;
 }
 
 .ranking-section {
@@ -45,17 +46,12 @@ import AnimacaoFundo from '../components/AnimacaoFundo.vue'
   z-index: 1;
   width: 700px;
   flex-shrink: 0;
-  background: transparent;
+  /* pode ter background sólido no card interno — normal cobrir a animação ali */
 }
 
-.hero {
+.Card-section {
   position: relative;
   z-index: 1;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  background: transparent;
 }
 </style>

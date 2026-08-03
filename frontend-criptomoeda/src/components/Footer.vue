@@ -43,6 +43,7 @@ const anoAtual = new Date().getFullYear();
   padding: 4rem 2rem 1.5rem;
   color: var(--color-year-footer);
   overflow: hidden;
+  background-color: transparent;
 }
 
 .footer-content {
@@ -51,6 +52,7 @@ const anoAtual = new Date().getFullYear();
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: transparent;
   gap: 3rem;
 }
 

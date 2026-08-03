@@ -1,37 +1,33 @@
 <template>
-  <div class="particles-bg">
-    <vue-particles id="tsparticles" :options="particlesOptions" />
-  </div>
+  <vue-particles id="tsparticles" :options="particlesOptions" />
 </template>
 
 <script setup>
 const particlesOptions = {
-  fullScreen: { enable: false },
-  background: { color: { value: "transparent" } },
+  fullScreen: {
+    enable: true,
+    zIndex: 0,
+  },
+  background: {
+    color: { value: "transparent" },
+  },
   fpsLimit: 60,
   particles: {
-    number: { value: 50 },
-    color: { value: "#FA9B00" },
-    links: { enable: true, color: "#9ca3af" },
-    move: { enable: true, speed: 0.3 },
+    number: { value: 40 },
+    color: { value: "#ffffff" },
+    links: { enable: true, color: "#ffffff" },
+    move: { enable: true, speed: 1 },
   },
 };
 </script>
 
 <style scoped>
-.particles-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.particles-bg :deep(canvas) {
-  width: 100% !important;
-  height: 100% !important;
-  display: block;
+:deep(#tsparticles) {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -1 !important;
 }
 </style>
