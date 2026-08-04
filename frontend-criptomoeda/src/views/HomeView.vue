@@ -1,24 +1,41 @@
 <template>
   <div class="container">
       <AnimacaoFundo />
+
     <div class="texto-section">
       <Texto />
     </div>
-    <div class="ranking-section">
-      <Ranking />
+    
+    <div class="Banner-section">
+      <Banner />
     </div>
   </div>
+
+  <div class="Waves-section">
+      <!-- <WavesSessoes /> -->
+    </div>
 
   <div class="Card-section">
       <CardSobre />
     </div>
+    
+  <div class="ranking-section">
+      <Ranking />
+    </div>
+
+  <div class="Criadores-section">
+      <Criadores />
+  </div>
 </template>
 
 <script setup>
 import Ranking from '../components/HomePage/Ranking.vue'
 import Texto from '../components/HomePage/Texto.vue'
 import CardSobre from '../components/HomePage/CardSobre.vue'
+import Criadores from '../components/Sobre/Criadores.vue';
 import AnimacaoFundo from '../components/AnimacaoFundo.vue'
+import Banner from '../components/HomePage/Banner.vue';
+import WavesSessoes from '../components/HomePage/WavesSessoes.vue';
 </script>
 
 <style scoped>
@@ -30,7 +47,7 @@ import AnimacaoFundo from '../components/AnimacaoFundo.vue'
   margin: 0 auto;
   padding: 0 4rem;
   gap: 4rem;
-  background: transparent; /* deixa a animação aparecer atrás */
+  background: transparent;
 }
 
 .texto-section {
@@ -41,15 +58,34 @@ import AnimacaoFundo from '../components/AnimacaoFundo.vue'
   background: transparent;
 }
 
+.Banner-section {
+  position: relative;
+  z-index: 1;
+  width:700px;
+  flex-shrink: 0;
+}
+
 .ranking-section {
   position: relative;
   z-index: 1;
-  width: 700px;
+  width: 98%;
   flex-shrink: 0;
-  /* pode ter background sólido no card interno — normal cobrir a animação ali */
+}
+
+.Waves-section {
+  position: relative;
+  margin-top: -15rem;
+  z-index: 1;
+  background: transparent;
 }
 
 .Card-section {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.Criadores-section{
   position: relative;
   z-index: 1;
   background: transparent;

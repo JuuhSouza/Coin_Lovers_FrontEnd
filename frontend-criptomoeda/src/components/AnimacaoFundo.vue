@@ -14,8 +14,8 @@ const particlesOptions = {
   fpsLimit: 60,
   particles: {
     number: { value: 40 },
-    color: { value: "#ffffff" },
-    links: { enable: true, color: "#ffffff" },
+    color: { value: "#FA9B00" },
+    links: { enable: true, color: "#FA9B00" },
     move: { enable: true, speed: 1 },
   },
 };

@@ -5,6 +5,8 @@ import CarteiraView from '../views/CarteiraView.vue'
 import ComprarView from '../views/ComprarView.vue'
 import LoginView from '../views/LoginView.vue'
 import CadastroView from '../views/CadastroView.vue'
+import ConversorView from '../views/ConversorView.vue'
+/* import CriadoresView from '../views/CriadoresView.vue' */
 
 const routes = [
     {
@@ -30,7 +32,15 @@ const routes = [
     {
         path: '/cadastro',
         component: CadastroView
-    }
+    },
+    {
+        path: '/conversor',
+        component: ConversorView
+    },
+   /*  {
+        path: '/criadores',
+        component: CriadoresView
+    } */
 ]
 
 const router = createRouter({

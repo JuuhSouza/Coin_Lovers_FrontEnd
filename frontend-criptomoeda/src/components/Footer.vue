@@ -22,7 +22,7 @@
         <div class="footer-column">
           <h4>Sobre</h4>
           <a href="#">Quem somos</a>
-          <a href="#">Criadores</a>
+          <router-link to="/criadores">Criadores</router-link>
         </div>
       </div>
     </div>

@@ -13,6 +13,7 @@
     "@tsparticles/vue3": "^4.3.2",
     "aos": "^2.3.4",
     "axios": "^1.19.0",
+    "gsap": "^3.15.0",
     "particles.js": "^2.0.0",
     "pinia": "^4.0.2",
     "sockjs-client": "^1.6.1",

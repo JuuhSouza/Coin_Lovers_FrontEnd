@@ -60,7 +60,6 @@ onUnmounted(() => {
 <style scoped>
 .ranking-section {
   padding: 2rem;
-  margin-top: -5rem;
   display: flex;
   justify-content: flex-end;
 }

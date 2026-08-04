@@ -1,5 +1,5 @@
 <template>
-  <section class="services">
+  <section class="services" data-aos="fade-up">
     <h1 class="services_title">Conheça nossos serviços</h1>
 
     <div class="container-box">
@@ -23,8 +23,6 @@
 </template>
 
 <script setup>
-import iconPage from '../../assets/img/icon-page.png'
-
 const services = [
   {
     title: "Ranking em tempo real",
@@ -54,13 +52,16 @@ const services = [
 
 .services_title {
   font-size: 2.6em;
+  margin: 0 33rem;
   color: var(--color-card-title);
+  background-color: transparent;
   text-align: center;
   margin-bottom: 3rem;
 }
 
 .container-box {
   display: flex;
+  background-color: transparent;
   align-items: flex-end;
   justify-content: center;
   gap: 1.5em;

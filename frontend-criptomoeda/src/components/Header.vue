@@ -16,10 +16,10 @@
           </router-link>
         </li>
         <li>
-          <a href="#conversor">
+          <router-link to="/conversor">
             <i class="fa-solid fa-arrow-right-arrow-left nav-icon"></i>
             <span class="nav-text">Conversor</span>
-          </a>
+          </router-link>
         </li>
         <li>
           <router-link to="/dashboard">

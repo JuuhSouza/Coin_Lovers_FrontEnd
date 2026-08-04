@@ -47,7 +47,6 @@
 }
 
 .titulo {
-
   font-size: 2.5rem;
   line-height: 1.15;
   color: var(--color-title-home);
@@ -55,14 +54,23 @@
 }
 
 .destaque {
-  color: #ff9f0a;
-  
+  background: linear-gradient(
+    90deg,
+    #ff9d39,
+    #ffaa00,
+    #ff9d39
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtitulo {
   font-size: 1.15rem;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--subtitulo-home);
   margin-top: -2rem;
 }
 
