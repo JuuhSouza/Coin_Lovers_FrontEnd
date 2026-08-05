@@ -54,14 +54,12 @@ import WavesSessoes from '../components/HomePage/WavesSessoes.vue';
   position: relative;
   z-index: 1;
   flex: 1;
-  min-width: 0;
+  min-width: 490px;
   background: transparent;
 }
 
 .Banner-section {
-  position: relative;
-  z-index: 1;
-  width:700px;
+  width:900px;
   flex-shrink: 0;
 }
 
@@ -89,5 +87,68 @@ import WavesSessoes from '../components/HomePage/WavesSessoes.vue';
   position: relative;
   z-index: 1;
   background: transparent;
+}
+
+@media (max-width: 1208px){
+  .container {
+  margin: 0;
+  padding: 0;
+}
+
+.Banner-section {
+/*   width: 100%; */
+  margin-left: -5rem;
+}
+}
+
+/* @media (max-width: 1026px){
+  .container {
+  margin: 0;
+  padding: 0;
+  gap: 0 0 2rem;
+}
+
+.Banner-section {
+  margin-left: -5rem;
+}
+} */
+
+@media (max-width: 992px){
+  .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-section {
+  min-width: 490px;
+}
+
+ .Banner-section {
+  display: none;
+}
+
+.Card-section{
+  margin-top: -36rem;
+ }
+}
+
+@media (max-width: 848px){
+ .Banner-section {
+  display: none;
+}
+
+.Card-section{
+  margin-top: -36rem;
+ }
+}
+
+@media (max-width: 624px){
+  .Banner-section {
+  display: none;
+}
+
+ .Card-section{
+  margin-top: -42rem;
+ }
 }
 </style>

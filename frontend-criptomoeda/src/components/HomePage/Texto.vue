@@ -33,8 +33,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 700px;
+  max-width: 1900px;
   width: 100%;
+  padding: 2rem;
 }
 
 .badge {
@@ -47,10 +48,10 @@
 }
 
 .titulo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.15;
   color: var(--color-title-home);
-  margin: 0;
+  margin: 0 ;
 }
 
 .destaque {
@@ -68,7 +69,7 @@
 }
 
 .subtitulo {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   color: var(--subtitulo-home);
   margin-top: -2rem;
@@ -76,17 +77,19 @@
 
 .acoes {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row;
+  width: 100%;
   gap: 1rem;
+  margin-top: -3rem;
 }
 
 .button-cadastro {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border: none;
   border-radius: 12px;
   background: var(--button-background-cadastro);
   color: var(--button-color-cadastro);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   transition: .25s ease;
@@ -106,7 +109,7 @@
   letter-spacing: 1.2px;
   background: transparent;
   color: var(--button-color-login);
-  font-size: 1.1rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: .25s ease;
 }
@@ -116,5 +119,82 @@
   background: var(--button-border-login-hover);
   opacity: .5;
   transform: translateY(-3px);
+}
+
+@media (max-width: 992px) {
+  .container {
+  align-items: center;
+  text-align: center;
+  width: auto;
+  padding: 2rem;
+}
+
+  .badge {
+  margin-top: -7rem ;
+}
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .subtitulo {
+    font-size: 1rem;
+  }
+
+  .acoes {
+    display: flex;
+    flex-wrap: row;
+    width: auto;
+  }
+
+  .button-cadastro,
+  .button-secundario {
+    width: auto;
+  }
+}
+
+@media (max-width: 924px){
+  .titulo {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .subtitulo {
+    font-size: 1rem;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .acoes {
+    margin-top: -3rem;
+    display: flex;
+    flex-wrap: row;
+    width: auto;
+  }
+}
+
+@media (max-width: 624px){
+  .titulo {
+    font-size: 1.7rem;
+    margin-top: -2rem;
+    padding: 0 4rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+    padding: 0 4rem;
+    text-align: center;
+  }
+
+  .acoes {
+    margin-top: -3rem;
+    display: flex;
+    flex-wrap: row;
+    width: auto;
+  }
+
+  .badge {
+    font-size: 1rem;
+}
 }
 </style>

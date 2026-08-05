@@ -46,13 +46,13 @@ const services = [
 <style scoped>
 .services {
   padding: 4rem 2rem;
-  margin-top: -8rem;
+  margin-top: 6rem;
   background-color: transparent;
 }
 
 .services_title {
   font-size: 2.6em;
-  margin: 0 33rem;
+  margin: 0 32rem;
   color: var(--color-card-title);
   background-color: transparent;
   text-align: center;
@@ -109,4 +109,125 @@ background: transparent;
   font-size: 0.95em;
   padding: 0 0.5em;
 }
+ 
+@media (max-width: 1345px){
+  .services_title {
+  margin: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1 1 200px;
+  max-width: 320px;
+  padding: 2em;
+}
+}
+
+@media (max-width: 992px){
+  .services {
+  padding: 1rem 2rem;
+  margin-top: 7rem;
+}
+
+.services_title {
+  margin: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  flex: 1 1 200px;
+  max-width: 320px;
+  padding: 2em;
+}
+
+.card_desc {
+  font-size: 1em;
+}
+}
+
+@media (max-width: 924px){
+  .services {
+  padding: 0 5rem;
+  margin-top: 6rem;
+  background-color: transparent;
+}
+
+.services_title {
+  font-size: 2.6em;
+   margin: 0 2rem;
+}
+
+  .container-box {
+   flex-direction: column;
+}
+
+.card {
+  flex:0;
+  padding: 1em;
+}
+
+.card-raised {
+    margin-bottom:0;
+}
+
+}
+
+@media (max-width: 921px){
+.services {
+  padding: 4rem 2rem;
+  margin-top: 6rem;
+  background-color: transparent;
+}
+
+.services_title {
+  font-size: 3em;
+  margin: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+.container-box {
+  flex-direction: row;
+}
+
+.card {
+  flex: 1 1 200px;
+  max-width: 320px;
+  padding: 2em;
+
+}
+
+.card-raised {
+    margin-bottom: 0;
+}
+
+.card_badge i {
+  background: var(--background-color-ranking);
+  font-size: 4.5rem;
+  color: var(--color-icon-card);
+  margin: 0 auto 12px;
+  display: block;
+}
+
+.card_title {
+  font-size: 1.5em;
+}
+
+.card_desc {
+  font-size: 1.2em;
+}
+}
+
+@media (max-width: 624px){
+  .services {
+  padding: 2em 2rem;
+}
+
+.services_title {
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+}
+
+
+
 </style>

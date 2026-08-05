@@ -23,7 +23,7 @@
   position: absolute;
   top: 3%;
   left: 50%;
-  width: 650px;
+  width: 620px;
   height: 550px;
   transform: translateX(-50%);
   background: radial-gradient(
@@ -32,7 +32,7 @@
     #ff910059 40%,
     transparent 70%
   );
-  filter: blur(60px);
+  filter: blur(40px);
   z-index: 0;
 }
 
@@ -46,5 +46,24 @@
     100%{
         transform: translateY(0);
     }
+}
+
+@media (max-width: 1345px){
+   .img-container img{
+    width: 25rem;
+    margin: 0 6rem 12rem ;
+}
+
+.img-container::before {
+  width: 620px;
+  height: 480px;
+  background: radial-gradient(
+    ellipse,
+    #ff9100e6 0%,
+    #ff910059 40%,
+    transparent 50%
+  );
+  filter: blur(40px);
+} 
 }
 </style>
