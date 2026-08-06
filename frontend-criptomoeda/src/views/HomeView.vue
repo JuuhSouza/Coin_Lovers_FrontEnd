@@ -96,22 +96,9 @@ import WavesSessoes from '../components/HomePage/WavesSessoes.vue';
 }
 
 .Banner-section {
-/*   width: 100%; */
   margin-left: -5rem;
 }
 }
-
-/* @media (max-width: 1026px){
-  .container {
-  margin: 0;
-  padding: 0;
-  gap: 0 0 2rem;
-}
-
-.Banner-section {
-  margin-left: -5rem;
-}
-} */
 
 @media (max-width: 992px){
   .container {

@@ -50,11 +50,14 @@
     --color-ranking: #ffffff;
     --color-ranking-hover: #FA9B00;
     --color-position: #FA9B00;
+    --border-color: #9ca3af;
     --color-sigla: #9ca3af;
+    --title-table:#9ca3af;
     --color-usuarios: #FA9B00;
     --button-background-color-ranking: #FA9B00;
-    --background-color-ranking: #1e1e2f;
     --button-color-atualizar: #020202;
+    --color-positivo:#16c784;
+    --color-negativo:#ea3943;
 
 }
 

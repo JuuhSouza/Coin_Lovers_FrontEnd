@@ -88,7 +88,7 @@ const services = [
 }
 
 .card_badge i {
-  background: var(--background-color-ranking);
+  background:var(--background-color-card);
   font-size: 3rem;
   color: var(--color-icon-card);
   margin: 0 auto 12px;
@@ -96,7 +96,7 @@ const services = [
 }
 
 .card_title {
-background: transparent;
+  background: transparent;
   color: var(--color-card-title);
   margin: 12px 0;
   font-weight: 550;
@@ -104,12 +104,12 @@ background: transparent;
 }
 
 .card_desc {
-background: transparent;
+  background: transparent;
   color: var(--color-card-p);
   font-size: 0.95em;
   padding: 0 0.5em;
 }
- 
+
 @media (max-width: 1345px){
   .services_title {
   margin: 0 2rem;
