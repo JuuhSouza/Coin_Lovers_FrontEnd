@@ -14,12 +14,12 @@
 
     <div class="acoes">
       <router-link to="/cadastro">
-      <button class="button-cadastro">
+      <button type="button" class="button-cadastro">
         Criar minha carteira grátis
       </button>
       </router-link>
       <router-link to="/login">
-      <button class="button-secundario">
+      <button type="button" class="button-secundario">
           Ja tenho conta
       </button>
       </router-link>
@@ -51,6 +51,7 @@
   font-size: 2rem;
   line-height: 1.15;
   color: var(--color-title-home);
+  font-weight: 500;
   margin: 0 ;
 }
 
@@ -63,7 +64,6 @@
   );
   -webkit-background-clip: text;
   background-clip: text;
-
   color: transparent;
   -webkit-text-fill-color: transparent;
 }

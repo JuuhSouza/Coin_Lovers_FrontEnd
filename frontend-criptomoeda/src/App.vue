@@ -1,5 +1,8 @@
 <template>
-  <Header />
+  <header>
+    <Header />
+  </header>
+
   <main class="content">
     <router-view />
   </main>

@@ -46,7 +46,7 @@ const services = [
 <style scoped>
 .services {
   padding: 4rem 2rem;
-  margin-top: 6rem;
+  margin-top: -10rem;
   background-color: transparent;
 }
 
@@ -110,10 +110,14 @@ const services = [
   padding: 0 0.5em;
 }
 
-@media (max-width: 1345px){
+@media (max-width: 1341px){
   .services_title {
   margin: 0 2rem;
   margin-bottom: 2rem;
+}
+
+ .services {
+  padding: 1rem 2rem;
 }
 
 .card {
@@ -126,7 +130,7 @@ const services = [
 @media (max-width: 992px){
   .services {
   padding: 1rem 2rem;
-  margin-top: 7rem;
+  margin-top: 12rem;
 }
 
 .services_title {
@@ -146,43 +150,17 @@ const services = [
 }
 
 @media (max-width: 924px){
-  .services {
-  padding: 0 5rem;
-  margin-top: 6rem;
-  background-color: transparent;
-}
-
-.services_title {
-  font-size: 2.6em;
-   margin: 0 2rem;
-}
-
-  .container-box {
-   flex-direction: column;
-}
-
-.card {
-  flex:0;
-  padding: 1em;
-}
-
-.card-raised {
-    margin-bottom:0;
-}
-
-}
-
-@media (max-width: 921px){
 .services {
-  padding: 4rem 2rem;
-  margin-top: 6rem;
+  padding: 2rem 2rem;
+  margin-top: 14rem;
   background-color: transparent;
 }
 
 .services_title {
   font-size: 3em;
   margin: 0 2rem;
-  margin-bottom: 3rem;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
 }
 
 .container-box {
@@ -201,8 +179,7 @@ const services = [
 }
 
 .card_badge i {
-  background: var(--background-color-ranking);
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: var(--color-icon-card);
   margin: 0 auto 12px;
   display: block;
@@ -218,16 +195,16 @@ const services = [
 }
 
 @media (max-width: 624px){
-  .services {
-  padding: 2em 2rem;
+.services {
+  padding: 2em 2em;
+  margin-top: 18rem;
 }
 
 .services_title {
-  font-size: 2.5em;
+  font-size: 2em;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 }
-
-
 
 </style>

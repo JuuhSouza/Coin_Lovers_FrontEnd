@@ -9,6 +9,12 @@
     --color-link-header-hover: #FA9B00;
     --color-line-header: #838383;
 
+    /* HEADER-MOBILE */
+    --background-color-mobile: #1e1e2f;
+    --color-overlay-mobile: #030303;
+    --color-link-mobile: #ffffff;
+    --color-mobile-icon: #FA9B00;
+
     /* FOOTER */
     --color-link-footer: #ffffff;
     --color-text-footer: #fffcfc;
@@ -52,12 +58,12 @@
     --color-position: #FA9B00;
     --border-color: #9ca3af;
     --color-sigla: #9ca3af;
-    --title-table:#9ca3af;
+    --title-table: #9ca3af;
     --color-usuarios: #FA9B00;
     --button-background-color-ranking: #FA9B00;
     --button-color-atualizar: #020202;
-    --color-positivo:#16c784;
-    --color-negativo:#ea3943;
+    --color-positivo: #16c784;
+    --color-negativo: #ea3943;
 
 }
 

@@ -34,11 +34,16 @@
           </router-link>
         </li>
       </ul>
+      <div class="mobile">
+        <HeaderMobile/>
+      </div>
+        
     </nav>
   </header>
 </template>
 
 <script setup>
+import HeaderMobile from '../components/HeaderMobile.vue'
 </script>
 
 <style scoped>
@@ -129,5 +134,35 @@ nav ul a:hover .nav-text {
 
 .cart-link:hover i {
   transform: translateY(-4px) rotate(-12deg);
+}
+
+.mobile{
+  display: none;
+}
+
+@media (max-width: 1341px){
+#menu-button{
+  display: none;
+}
+}
+
+@media (max-width: 992px){
+nav ul a {
+  display: none;
+}
+
+.mobile{
+  display: flex;
+}
+}
+
+@media (max-width: 624px){
+nav ul a {
+  display: none;
+}
+
+.mobile{
+  display: flex;
+}
 }
 </style>

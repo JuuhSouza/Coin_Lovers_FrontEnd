@@ -11,10 +11,6 @@
     </div>
   </div>
 
-  <div class="Waves-section">
-      <!-- <WavesSessoes /> -->
-    </div>
-
   <div class="Card-section">
       <CardSobre />
     </div>
@@ -35,7 +31,6 @@ import CardSobre from '../components/HomePage/CardSobre.vue'
 import Criadores from '../components/Sobre/Criadores.vue';
 import AnimacaoFundo from '../components/AnimacaoFundo.vue'
 import Banner from '../components/HomePage/Banner.vue';
-import WavesSessoes from '../components/HomePage/WavesSessoes.vue';
 </script>
 
 <style scoped>
